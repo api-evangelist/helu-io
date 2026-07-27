@@ -1,7 +1,29 @@
 aid: helu-io
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/helu-io.png
 name: Helu Io
-description: Helu Io is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  helu.io is a financial management, controlling, and reporting platform for
+  startups and small-to-medium businesses. It connects directly to DATEV
+  accounting data (via a certified DATEVconnect interface) to produce automated,
+  real-time financial reports, customizable dashboards and KPIs, budget
+  vs. actuals comparisons, multi-entity consolidation, and planning, so finance
+  teams can analyze, plan, and collaborate without manual spreadsheet work. The
+  company is a portfolio company of Speedinvest and hosts data on German servers
+  in compliance with DSGVO/GDPR. helu.io is a SaaS product; it does not currently
+  publish a public developer API, developer portal, SDKs, or OpenAPI — its
+  integrations are product-level (DATEV, plus data upload from HubSpot,
+  Salesforce, Google Sheets, Excel, and Personio).
 url: https://raw.githubusercontent.com/api-evangelist/helu-io/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Financial
+- Controlling
+- Reporting
+- Analytics
+- Accounting
+- DATEV
+- FinTech
+- Business Intelligence
+- SME
 apis: []
+common:
+- type: DomainSecurity
+  url: security/helu-io-domain-security.yml
+- url: https://helu.io
+  type: Website
+- url: https://helu.io/pricing
+  type: Pricing
+- url: https://helu.io/privacy-policy
+  type: PrivacyPolicy
+- url: https://helu.io/agb
+  type: TermsOfService
+- url: https://helu.io/contact
+  type: Support
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
