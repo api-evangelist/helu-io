@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Helu Io is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+helu.io is a financial management, controlling, and reporting platform for startups and small-to-medium businesses. It connects directly to DATEV accounting data (via a certified DATEVconnect interface) to produce automated, real-time financial reports, customizable dashboards and KPIs, budget vs. actuals comparisons, multi-entity consolidation, and planning, so finance teams can analyze, plan, and collaborate without manual spreadsheet work. The company is a portfolio company of Speedinvest and hosts data on German servers in compliance with DSGVO/GDPR. helu.io is a SaaS product; it does not currently publish a public developer API, developer portal, SDKs, or OpenAPI — its integrations are product-level (DATEV, plus data upload from HubSpot, Salesforce, Google Sheets, Excel, and Personio).
 
-Backed by: speedinvest
+**Areas:** Company · Finance · Controlling · Reporting · Analytics · Accounting · DATEV · Fintech · Business Intelligence · Small Business
+
+## Helu Io on APIs.io
+
+Everything profiled for Helu Io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/helu-io/](https://apis.io/providers/helu-io/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Helu Io Domain Security](https://apis.io/security/helu-io/helu-io-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://helu.io)
+- [Pricing](https://helu.io/pricing)
+- [Support](https://helu.io/contact)
+- [Blog](https://www.helu.io/press)
+- [Terms of service](https://helu.io/agb)
+- [Privacy policy](https://helu.io/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 12.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 31.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/helu-io/](https://apis.io/providers/helu-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Helu Io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/helu-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
